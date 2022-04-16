@@ -16,6 +16,12 @@ nav li {
     background-color: #F3D45C;
 }
 
+#applyBanner {
+    width: 100%;
+    border: 3px solid #176a72;
+    margin: 0px;
+}
+
 footer {
     background-color: rgb(20, 20, 20);
 }
@@ -92,6 +98,16 @@ footer .col {
     border-radius: 15px;
     border-color: transparent;
     padding: 10px;
+}
+
+.submit-button-apply {
+    background-color: #27a4ba;
+    color: #fff;
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .carousel-item {
