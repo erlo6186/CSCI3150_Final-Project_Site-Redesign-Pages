@@ -137,6 +137,7 @@ footer .col {
     color: #F3D45C;
     border-radius: 15px;
     border-color: transparent;
+<<<<<<< Updated upstream
     padding: 15px 10px;
     text-decoration: none;
 }
@@ -152,7 +153,8 @@ footer .col {
     font-weight: bold;
     font-size: 24px;
     color: #176a72;
-
+}
+=======
     padding: 10px;
 }
 
@@ -257,3 +259,4 @@ footer .col {
     font-size: 0;
     transition: transform 0.1s;
   }
+>>>>>>> Stashed changes
