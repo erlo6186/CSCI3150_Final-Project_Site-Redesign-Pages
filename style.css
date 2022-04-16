@@ -95,7 +95,7 @@ footer .col {
 }
 
 .submit-button {
-    background-color: #27a4ba;
+    background-color: #175F6D;
     color: #fff;
     border-radius: 15px;
     border-color: transparent;
@@ -103,7 +103,7 @@ footer .col {
 }
 
 .submit-button-apply {
-    background-color: #27a4ba;
+    background-color: #175F6D;
     color: #fff;
     border-radius: 15px;
     border-color: transparent;
@@ -118,7 +118,7 @@ footer .col {
 }
 
 .navButton {
-    background-color: #27a4ba;
+    background-color: #175F6D;
     color: #fff;
     border-radius: 15px;
     border-color: transparent;
@@ -127,7 +127,7 @@ footer .col {
 }
 
 .navButtonDrop {
-    background-color: #27a4ba;
+    background-color: #175F6D;
     color: #fff;
     border-radius: 15px;
     border-color: transparent;
@@ -135,7 +135,7 @@ footer .col {
 }
 
 .donateButton {
-    background-color: #27a4ba;
+    background-color: #175F6D;
     color: #F3D45C;
     border-radius: 15px;
     border-color: transparent;
@@ -144,7 +144,7 @@ footer .col {
 }
 
 .promoText {
-    font-size: 25px;
+    font-size: 20px;
     color: #176a72;
     font-weight: bold;
 }
