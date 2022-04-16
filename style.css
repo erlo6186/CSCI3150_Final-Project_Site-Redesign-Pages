@@ -114,7 +114,7 @@ footer .col {
 
 .carousel-item {
     text-align: center;
-    padding: 10% 20%;
+    padding: 10%;
 }
 
 .navButton {
@@ -156,6 +156,7 @@ footer .col {
     color: #176a72;
 }
 
+/*
 @keyframes tonext {
   75% {
     left: 0;
@@ -305,3 +306,4 @@ footer .col {
   transition: transform 0.1s;
 }
 
+*/
