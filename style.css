@@ -47,7 +47,9 @@ nav {
 }
 
 #mainPageHeader {
-    background-image: url("img/placeholder.png");
+    background-image: url("img/kids-coats.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #000;
     width: 100%;
     min-height: 500px;
