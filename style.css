@@ -23,7 +23,7 @@ footer {
 .row {
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 20px;
+    padding: 30px;
 }
 
 #review-Carousel {
@@ -97,11 +97,18 @@ footer .col {
 .carousel-item {
     text-align: center;
     padding: 10% 20%;
-    color: #176a72;
-    font-size: 24px;
 }
 
 .navButton {
+    background-color: #27a4ba;
+    color: #fff;
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+.navButtonDrop {
     background-color: #27a4ba;
     color: #fff;
     border-radius: 15px;
@@ -114,5 +121,19 @@ footer .col {
     color: #F3D45C;
     border-radius: 15px;
     border-color: transparent;
-    padding: 10px;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+.promoText {
+    font-size: 25px;
+    color: #176a72;
+    font-weight: bold;
+}
+
+.carouselText {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    color: #176a72;
 }
