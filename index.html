@@ -12,6 +12,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </head>
     <body>
+        <div id="skip"><a href="#mainContent">Skip to Main Content</a></div>
         <header role="heading" id="mainPageHeader">
             <nav role="navigation" class="navbar">
                 <ul>
@@ -33,7 +34,7 @@
                 </ul>
             </nav>
         </header>
-        <main role="main">
+        <main role="main" id="mainContent">
             <div class="container-fluid">
                 <div class="row" id="promos-Links">
                     <div class="col" style="text-align: center">
@@ -183,11 +184,11 @@
                                 <legend>Join Our Newsletter</legend>
                                 <div style="display: inline-block; padding: 20px;">
                                     <label for="newsFirstName" class="form-label">First Name<abbr title="required" aria-label="required" style="margin-left: 0.2rem;">*</abbr></label>
-                                    <input id="newsFirstName" name="newsFirstName" type="text" class="form-control"/>
+                                    <input id="newsFirstName" name="newsFirstName" type="text" class="form-control" required/>
                                     <label for="newsLastName" class="form-label">Last Name<abbr title="required" aria-label="required" style="margin-left: 0.2rem;">*</abbr></label>
-                                    <input id="newsLastName" name="newsLastName" type="text" class="form-control"/>
+                                    <input id="newsLastName" name="newsLastName" type="text" class="form-control" required/>
                                     <label for="newsEmail" class="form-label">Email<abbr title="required" aria-label="required" style="margin-left: 0.2rem;">*</abbr></label>
-                                    <input id="newsEmail" name="newsEmail" type="email" class="form-control" />
+                                    <input id="newsEmail" name="newsEmail" type="email" class="form-control" required/>
                                 </div>
                                 <button type="submit" class="submit-button">Submit Newsletter Application</button>
                             </fieldset>

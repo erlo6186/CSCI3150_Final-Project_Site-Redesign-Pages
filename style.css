@@ -156,6 +156,31 @@ footer .col {
     color: #176a72;
 }
 
+input:invalid {
+  border: 3px dashed red;
+}
+
+input:valid {
+  border: 2px solid white;
+}
+
+/* Referenced: https://webaim.org/techniques/css/invisiblecontent/  */
+
+#skip a {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#skip a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
 /*
 @keyframes tonext {
   75% {
